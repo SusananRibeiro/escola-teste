@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 class ResponsavelTest {
-    Responsavel responsavel1 = new Responsavel("Amanda Costa");
-    Responsavel responsavel2 = new Responsavel("Paulo Araujo");
-    Responsavel responsavel3 = new Responsavel("Sandra Peixoto");
+    Responsavel responsavel1;
+    Responsavel responsavel2;
+    Responsavel responsavel3;
     @BeforeEach
     void setUp() {
-        Responsavel responsavel1 = new Responsavel("Amanda Costa");
-        Responsavel responsavel2 = new Responsavel("Paulo Araujo");
-        Responsavel responsavel3 = new Responsavel("Sandra Peixoto");
+        this.responsavel1 = new Responsavel("Amanda Costa");
+        this.responsavel2 = new Responsavel("Paulo Araujo");
+        this.responsavel3 = new Responsavel("Sandra Peixoto");
     }
     @Test
     void testGetPagamentos() {

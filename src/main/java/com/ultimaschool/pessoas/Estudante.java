@@ -15,7 +15,7 @@ public class Estudante extends Pessoa {
     public double[] getNotas() {
         return notas;
     }
-    public void setNotas(double[] notas) {
+    public void setNotas(double[] listaNotas) {
         this.notas = notas;
     }
     public void consolidarNota(int unidade, double nota) {
